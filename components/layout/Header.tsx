@@ -1,15 +1,11 @@
 import Link from "next/link";
+import { getCategories } from "@/catalog";
 import { CartIcon } from "./CartIcon";
 import { Logo } from "./Logo";
 
-const categories = [
-  { name: "Trowels", slug: "trowels" },
-  { name: "Plaster", slug: "plaster" },
-  { name: "Stilts", slug: "stilts" },
-  { name: "Miscellaneous", slug: "miscellaneous" },
-];
-
 export function Header() {
+  const categories = getCategories();
+
   return (
     <header className="sticky top-0 z-40 bg-ink">
       <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-x-8 px-4 py-2 sm:px-6">

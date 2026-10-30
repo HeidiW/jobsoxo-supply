@@ -1,0 +1,528 @@
+[
+  {
+    "id": "JOX-TRW-001",
+    "title": "Pro Finishing Trowel 11\" x 4.5\"",
+    "description": "A compact finishing trowel for tight rooms, reveals, and closing in small patches. The tempered stainless blade is broken in at the factory, so it lays plaster down flat from the first day without leaving hard edge lines.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "38.50 USD",
+    "image_link": "/placeholder/JOX-TRW-001.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "item_group_id": "JOX-TRW-FIN",
+    "inventory": 42,
+    "custom": {
+      "slug": "pro-finishing-trowel-11-inch",
+      "category_slug": "trowels",
+      "short_description": "Compact stainless finishing trowel for tight rooms and small patches.",
+      "specs": {
+        "Blade size": "11 in x 4.5 in",
+        "Blade material": "Tempered stainless steel",
+        "Blade thickness": "0.5 mm",
+        "Handle": "Soft-grip cork composite",
+        "Weight": "12 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-TRW-002",
+    "title": "Pro Finishing Trowel 14\" x 4.5\"",
+    "description": "The all-round size most plasterers reach for on walls and ceilings. A slim, flexible blade closes the surface quickly on the final passes, while the balanced aluminum mount keeps wrist strain down through a full day of skimming.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "44.00 USD",
+    "sale_price": "38.99 USD",
+    "image_link": "/placeholder/JOX-TRW-002.png",
+    "additional_image_link": ["/placeholder/JOX-TRW-002-detail.png"],
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "item_group_id": "JOX-TRW-FIN",
+    "inventory": 68,
+    "custom": {
+      "slug": "pro-finishing-trowel-14-inch",
+      "category_slug": "trowels",
+      "short_description": "The all-round stainless finishing trowel for walls and ceilings.",
+      "specs": {
+        "Blade size": "14 in x 4.5 in",
+        "Blade material": "Tempered stainless steel",
+        "Blade thickness": "0.5 mm",
+        "Handle": "Soft-grip cork composite",
+        "Weight": "15 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-TRW-003",
+    "title": "Pro Finishing Trowel 16\" x 4.5\"",
+    "description": "A long blade for covering big walls and ceilings in fewer strokes. The extra length bridges small hollows as you work, which helps keep large open areas flat before the final polish.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "49.50 USD",
+    "image_link": "/placeholder/JOX-TRW-003.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "item_group_id": "JOX-TRW-FIN",
+    "inventory": 27,
+    "custom": {
+      "slug": "pro-finishing-trowel-16-inch",
+      "category_slug": "trowels",
+      "short_description": "Long stainless finishing trowel for big walls and open ceilings.",
+      "specs": {
+        "Blade size": "16 in x 4.5 in",
+        "Blade material": "Tempered stainless steel",
+        "Blade thickness": "0.5 mm",
+        "Handle": "Soft-grip cork composite",
+        "Weight": "18 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-TRW-004",
+    "title": "Round-End Pool Trowel 14\" x 4.5\"",
+    "description": "Rounded blade ends let you sweep through curves and across fresh coats without digging in or leaving tram lines. A strong choice for pool interiors, curved walls, and decorative finishes.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "46.00 USD",
+    "image_link": "/placeholder/JOX-TRW-004.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "inventory": 31,
+    "custom": {
+      "slug": "round-end-pool-trowel-14-inch",
+      "category_slug": "trowels",
+      "short_description": "Round-ended trowel that leaves no tram lines on curves and pools.",
+      "specs": {
+        "Blade size": "14 in x 4.5 in",
+        "Blade material": "Stainless steel",
+        "Blade profile": "Fully rounded ends",
+        "Handle": "Hardwood with brass ferrule",
+        "Weight": "16 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-TRW-005",
+    "title": "Margin Trowel 5\" x 2\"",
+    "description": "A small square-ended trowel for scooping from the bucket, mixing small batches, and working plaster into corners a full-size blade can't reach. It earns its place in every tool bag.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "18.50 USD",
+    "image_link": "/placeholder/JOX-TRW-005.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "inventory": 115,
+    "custom": {
+      "slug": "margin-trowel-5-inch",
+      "category_slug": "trowels",
+      "short_description": "Small square-ended trowel for buckets, small mixes, and tight spots.",
+      "specs": {
+        "Blade size": "5 in x 2 in",
+        "Blade material": "Carbon steel",
+        "Handle": "Hardwood",
+        "Weight": "6 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-TRW-006",
+    "title": "Inside Corner Trowel 5\" x 4\"",
+    "description": "Folded to a true 90 degrees, this trowel forms crisp inside corners in one clean pull. The slightly relaxed wings ride over the fresh coat, so you can sharpen an angle without gouging the wall on either side.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "24.00 USD",
+    "image_link": "/placeholder/JOX-TRW-006.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Trowels",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Masonry Trowels",
+    "inventory": 53,
+    "custom": {
+      "slug": "inside-corner-trowel-5-inch",
+      "category_slug": "trowels",
+      "short_description": "Folded 90-degree trowel for crisp inside corners in one pull.",
+      "specs": {
+        "Blade size": "5 in x 4 in",
+        "Blade material": "Stainless steel",
+        "Corner angle": "90 degrees",
+        "Handle": "Soft-grip composite",
+        "Weight": "8 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-PLS-001",
+    "title": "Plaster of Paris 25 lb Bag",
+    "description": "A fine white plaster for casting, moldings, ornamental repairs, and small fill work. It mixes smooth with cold water and sets hard enough to carve and sand once dry.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "26.00 USD",
+    "image_link": "/placeholder/JOX-PLS-001.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Materials > Plaster of Paris",
+    "google_product_category": "Hardware > Building Consumables > Wall Patching Compounds & Plaster",
+    "inventory": 80,
+    "custom": {
+      "slug": "plaster-of-paris-25-lb",
+      "category_slug": "plaster",
+      "short_description": "Fine white plaster for casting, moldings, and ornamental repairs.",
+      "specs": {
+        "Bag weight": "25 lb",
+        "Material": "Calcined gypsum",
+        "Working time": "15 to 20 minutes",
+        "Color": "White",
+        "Use": "Interior"
+      }
+    }
+  },
+  {
+    "id": "JOX-PLS-002",
+    "title": "Fast-Set Patching Plaster 4 lb Tub",
+    "description": "A resealable tub of quick-setting plaster for holes, cracks, and dings around the house. It fills deep without slumping and can be sanded or painted the same day.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "8.75 USD",
+    "image_link": "/placeholder/JOX-PLS-002.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Materials > Patching Plaster",
+    "google_product_category": "Hardware > Building Consumables > Wall Patching Compounds & Plaster",
+    "item_group_id": "JOX-PLS-PAT",
+    "inventory": 140,
+    "custom": {
+      "slug": "fast-set-patching-plaster-4-lb",
+      "category_slug": "plaster",
+      "short_description": "Resealable tub of quick-setting plaster for small repairs.",
+      "specs": {
+        "Bag weight": "4 lb",
+        "Material": "Gypsum patching blend",
+        "Working time": "20 minutes",
+        "Packaging": "Resealable tub",
+        "Use": "Interior"
+      }
+    }
+  },
+  {
+    "id": "JOX-PLS-003",
+    "title": "Fast-Set Patching Plaster 25 lb Bag",
+    "description": "The same fast-setting patching blend in a jobsite bag for larger repairs. It bonds well to old plaster and lath, making it a practical choice for restoration work.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "24.50 USD",
+    "image_link": "/placeholder/JOX-PLS-003.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Materials > Patching Plaster",
+    "google_product_category": "Hardware > Building Consumables > Wall Patching Compounds & Plaster",
+    "item_group_id": "JOX-PLS-PAT",
+    "inventory": 64,
+    "custom": {
+      "slug": "fast-set-patching-plaster-25-lb",
+      "category_slug": "plaster",
+      "short_description": "Jobsite bag of fast-setting plaster for larger repairs.",
+      "specs": {
+        "Bag weight": "25 lb",
+        "Material": "Gypsum patching blend",
+        "Working time": "20 minutes",
+        "Packaging": "Paper sack",
+        "Use": "Interior"
+      }
+    }
+  },
+  {
+    "id": "JOX-PLS-004",
+    "title": "Gypsum Basecoat Plaster 50 lb Bag",
+    "description": "A workable gypsum basecoat for building up walls and ceilings over lath, block, or bonding agent. It straightens easily with a rod and leaves a keyed surface ready for the finish coat.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "32.00 USD",
+    "image_link": "/placeholder/JOX-PLS-004.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Materials > Basecoat Plaster",
+    "google_product_category": "Hardware > Building Consumables > Wall Patching Compounds & Plaster",
+    "inventory": 96,
+    "custom": {
+      "slug": "gypsum-basecoat-plaster-50-lb",
+      "category_slug": "plaster",
+      "short_description": "Workable gypsum basecoat for walls and ceilings.",
+      "specs": {
+        "Bag weight": "50 lb",
+        "Material": "Gypsum with perlite aggregate",
+        "Working time": "60 to 90 minutes",
+        "Coverage": "About 45 sq ft at 3/8 in",
+        "Use": "Interior"
+      }
+    }
+  },
+  {
+    "id": "JOX-PLS-005",
+    "title": "Veneer Finish Plaster 50 lb Bag",
+    "description": "A hard, smooth finish plaster applied in a thin coat over a veneer base or basecoat. It trowels to a dense, paint-ready surface that resists dents better than standard joint compound.",
+    "availability": "out of stock",
+    "condition": "new",
+    "price": "34.50 USD",
+    "image_link": "/placeholder/JOX-PLS-005.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Materials > Finish Plaster",
+    "google_product_category": "Hardware > Building Consumables > Wall Patching Compounds & Plaster",
+    "inventory": 0,
+    "custom": {
+      "slug": "veneer-finish-plaster-50-lb",
+      "category_slug": "plaster",
+      "short_description": "Hard, smooth finish plaster for a dense, paint-ready surface.",
+      "specs": {
+        "Bag weight": "50 lb",
+        "Material": "Gypsum and lime blend",
+        "Working time": "60 minutes",
+        "Coverage": "About 200 sq ft at 1/16 in",
+        "Use": "Interior"
+      }
+    }
+  },
+  {
+    "id": "JOX-STL-001",
+    "title": "Adjustable Drywall Stilts 18\"-30\"",
+    "description": "A dependable entry-level pair for standard ceiling heights. The aluminum frame adjusts without tools, and the padded leg bands and heel straps keep you secure while you move around the room.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "189.00 USD",
+    "image_link": "/placeholder/JOX-STL-001.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Stilts",
+    "google_product_category": "Hardware > Tools > Ladders & Scaffolding > Work Platforms",
+    "inventory": 18,
+    "custom": {
+      "slug": "adjustable-drywall-stilts-18-30",
+      "category_slug": "stilts",
+      "short_description": "Tool-free adjustable aluminum stilts for standard ceiling heights.",
+      "specs": {
+        "Height range": "18 in to 30 in",
+        "Material": "Aircraft-grade aluminum",
+        "Weight": "14 lb per pair",
+        "Max user weight": "225 lb",
+        "Sole": "Non-slip rubber"
+      }
+    }
+  },
+  {
+    "id": "JOX-STL-002",
+    "title": "Adjustable Drywall Stilts 24\"-40\"",
+    "description": "Extra reach for high ceilings, stairwells, and commercial work. A wider sole plate adds stability at full height, and the adjustment pins lock positively at each step.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "219.00 USD",
+    "image_link": "/placeholder/JOX-STL-002.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Stilts",
+    "google_product_category": "Hardware > Tools > Ladders & Scaffolding > Work Platforms",
+    "inventory": 12,
+    "custom": {
+      "slug": "adjustable-drywall-stilts-24-40",
+      "category_slug": "stilts",
+      "short_description": "Extended-reach aluminum stilts for high ceilings and stairwells.",
+      "specs": {
+        "Height range": "24 in to 40 in",
+        "Material": "Aircraft-grade aluminum",
+        "Weight": "15 lb per pair",
+        "Max user weight": "225 lb",
+        "Sole": "Non-slip rubber"
+      }
+    }
+  },
+  {
+    "id": "JOX-STL-003",
+    "title": "Pro Dual-Spring Stilts 18\"-30\"",
+    "description": "Twin springs at the ankle give each step a natural push and take the load off your legs on long days. Built for trade users who spend hours at a time up on stilts.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "265.00 USD",
+    "image_link": "/placeholder/JOX-STL-003.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Stilts",
+    "google_product_category": "Hardware > Tools > Ladders & Scaffolding > Work Platforms",
+    "inventory": 9,
+    "custom": {
+      "slug": "pro-dual-spring-stilts-18-30",
+      "category_slug": "stilts",
+      "short_description": "Dual-spring stilts that ease the load on long working days.",
+      "specs": {
+        "Height range": "18 in to 30 in",
+        "Material": "Aircraft-grade aluminum",
+        "Weight": "13 lb per pair",
+        "Max user weight": "225 lb",
+        "Action": "Dual ankle springs"
+      }
+    }
+  },
+  {
+    "id": "JOX-STL-004",
+    "title": "Magnesium Lightweight Stilts 24\"-40\"",
+    "description": "Our lightest pair, with a magnesium frame that cuts weight without giving up rigidity. Sealed pivots keep plaster dust out, and every wear part can be replaced in the field.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "319.00 USD",
+    "image_link": "/placeholder/JOX-STL-004.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Stilts",
+    "google_product_category": "Hardware > Tools > Ladders & Scaffolding > Work Platforms",
+    "inventory": 6,
+    "custom": {
+      "slug": "magnesium-lightweight-stilts-24-40",
+      "category_slug": "stilts",
+      "short_description": "Our lightest stilts, with a rigid magnesium frame and sealed pivots.",
+      "specs": {
+        "Height range": "24 in to 40 in",
+        "Material": "Magnesium alloy",
+        "Weight": "9 lb per pair",
+        "Max user weight": "225 lb",
+        "Action": "Dual ankle springs"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-001",
+    "title": "Canvas Drop Cloth 9' x 12'",
+    "description": "A heavyweight cotton canvas cloth that lies flat, stays put underfoot, and soaks up drips. Wash it and use it again from one job to the next.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "27.50 USD",
+    "image_link": "/placeholder/JOX-MSC-001.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Drop Cloths",
+    "google_product_category": "Hardware > Hardware Accessories > Drop Cloths",
+    "inventory": 75,
+    "custom": {
+      "slug": "canvas-drop-cloth-9x12",
+      "category_slug": "miscellaneous",
+      "short_description": "Heavyweight reusable canvas cloth that stays put underfoot.",
+      "specs": {
+        "Dimensions": "9 ft x 12 ft",
+        "Material": "10 oz cotton canvas",
+        "Weight": "5 lb",
+        "Reusable": "Yes, machine washable"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-002",
+    "title": "Plastic Drop Sheet 10' x 20'",
+    "description": "A low-cost disposable sheet for covering floors, furniture, and fixtures. Fold it up with the mess inside when the job is done.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "8.50 USD",
+    "image_link": "/placeholder/JOX-MSC-002.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Drop Cloths",
+    "google_product_category": "Hardware > Hardware Accessories > Drop Cloths",
+    "inventory": 160,
+    "custom": {
+      "slug": "plastic-drop-sheet-10x20",
+      "category_slug": "miscellaneous",
+      "short_description": "Disposable sheet for covering floors, furniture, and fixtures.",
+      "specs": {
+        "Dimensions": "10 ft x 20 ft",
+        "Material": "Polyethylene",
+        "Thickness": "2 mil",
+        "Reusable": "No, single use"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-003",
+    "title": "Fiberglass Mesh Joint Tape 2\" x 300'",
+    "description": "Self-adhesive mesh tape that sticks straight to board joints with no bedding coat. The open weave lets plaster key through for a strong, crack-resistant seam.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "9.25 USD",
+    "image_link": "/placeholder/JOX-MSC-003.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Joint Tape",
+    "google_product_category": "Hardware > Building Consumables > Hardware Tape",
+    "inventory": 210,
+    "custom": {
+      "slug": "fiberglass-mesh-joint-tape-300-ft",
+      "category_slug": "miscellaneous",
+      "short_description": "Self-adhesive mesh tape for strong, crack-resistant joints.",
+      "specs": {
+        "Dimensions": "2 in x 300 ft",
+        "Material": "Fiberglass mesh",
+        "Backing": "Self-adhesive",
+        "Mesh": "9 x 9 strands per inch"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-004",
+    "title": "Paper Joint Tape 2\" x 500'",
+    "description": "Classic creased paper tape for seams and inside corners. The center crease folds cleanly into a corner, and the roughened surface grips the bedding coat.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "8.00 USD",
+    "image_link": "/placeholder/JOX-MSC-004.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Joint Tape",
+    "google_product_category": "Hardware > Building Consumables > Hardware Tape",
+    "inventory": 185,
+    "custom": {
+      "slug": "paper-joint-tape-500-ft",
+      "category_slug": "miscellaneous",
+      "short_description": "Creased paper tape for seams and inside corners.",
+      "specs": {
+        "Dimensions": "2 in x 500 ft",
+        "Material": "Reinforced paper",
+        "Crease": "Center fold",
+        "Backing": "None, bed in compound"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-005",
+    "title": "Sponge Float 11\" x 4.5\" Medium",
+    "description": "A medium-density sponge on a rigid plastic backing for texturing and closing up a set coat. Dampen it and work in circles to bring up a soft, even finish.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "13.50 USD",
+    "sale_price": "11.50 USD",
+    "image_link": "/placeholder/JOX-MSC-005.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Floats",
+    "google_product_category": "Hardware > Tools > Masonry Tools > Floats",
+    "inventory": 88,
+    "custom": {
+      "slug": "sponge-float-11-inch-medium",
+      "category_slug": "miscellaneous",
+      "short_description": "Medium-density sponge float for texture and a soft, even finish.",
+      "specs": {
+        "Dimensions": "11 in x 4.5 in",
+        "Material": "Polyurethane sponge on plastic backing",
+        "Density": "Medium",
+        "Weight": "7 oz"
+      }
+    }
+  },
+  {
+    "id": "JOX-MSC-006",
+    "title": "Aluminum Plastering Hawk 13\" x 13\"",
+    "description": "A lightweight aluminum hawk that holds a good load of plaster close to the wall. The removable foam-grip handle sits comfortably in the palm and lifts off for cleaning.",
+    "availability": "in stock",
+    "condition": "new",
+    "price": "34.00 USD",
+    "image_link": "/placeholder/JOX-MSC-006.png",
+    "brand": "JobsOxo Supply",
+    "product_type": "Plastering Tools > Accessories > Hawks",
+    "google_product_category": "Hardware > Tools > Masonry Tools",
+    "inventory": 47,
+    "custom": {
+      "slug": "aluminum-plastering-hawk-13-inch",
+      "category_slug": "miscellaneous",
+      "short_description": "Lightweight aluminum hawk with a removable foam-grip handle.",
+      "specs": {
+        "Dimensions": "13 in x 13 in",
+        "Material": "Aluminum plate",
+        "Handle": "Removable foam grip",
+        "Weight": "1.5 lb"
+      }
+    }
+  }
+]

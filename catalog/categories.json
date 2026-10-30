@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "trowels",
+    "name": "Trowels",
+    "description": "Finishing, pool, margin, and corner trowels for every stage of the coat.",
+    "image_link": "/placeholder/category-trowels.png"
+  },
+  {
+    "slug": "plaster",
+    "name": "Plaster",
+    "description": "Plaster of Paris, patching plaster, and basecoat for repair and new work.",
+    "image_link": "/placeholder/category-plaster.png"
+  },
+  {
+    "slug": "stilts",
+    "name": "Stilts",
+    "description": "Adjustable stilts for ceilings and high walls without moving a scaffold.",
+    "image_link": "/placeholder/category-stilts.png"
+  },
+  {
+    "slug": "miscellaneous",
+    "name": "Miscellaneous",
+    "description": "Drop cloths, joint tape, floats, and hawks to round out the kit.",
+    "image_link": "/placeholder/category-miscellaneous.png"
+  }
+]
