@@ -1,12 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { useCart } from "@/components/cart/CartProvider";
 
 export function CartIcon() {
-  const count = 0;
+  const { itemCount } = useCart();
 
   return (
     <Link
       href="/cart"
-      aria-label={`Cart, ${count} items`}
+      aria-label={`Cart, ${itemCount} ${itemCount === 1 ? "item" : "items"}`}
       className="relative flex size-11 items-center justify-center text-white transition-colors hover:text-safety"
     >
       <svg
@@ -24,7 +27,7 @@ export function CartIcon() {
         <circle cx="16.5" cy="19.5" r="1.5" />
       </svg>
       <span className="absolute right-0 top-0 flex h-5 min-w-5 items-center justify-center rounded-full bg-safety px-1 text-xs font-semibold text-ink">
-        {count}
+        {itemCount}
       </span>
     </Link>
   );

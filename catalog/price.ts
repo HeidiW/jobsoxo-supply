@@ -19,7 +19,9 @@ export function parsePrice(price: string): ParsedPrice {
 }
 
 /** The amount a customer pays for one unit: the sale price when there is one. */
-export function getUnitPrice(product: Product): ParsedPrice {
+export function getUnitPrice(
+  product: Pick<Product, "price" | "sale_price">,
+): ParsedPrice {
   return parsePrice(product.sale_price ?? product.price);
 }
 

@@ -18,7 +18,7 @@ export function Header() {
             {categories.map((category) => (
               <li key={category.slug}>
                 <Link
-                  href={`/category/${category.slug}`}
+                  href={`/products/${category.slug}`}
                   className="block py-2.5 text-sm font-medium text-white/85 transition-colors hover:text-safety sm:text-base"
                 >
                   {category.name}

@@ -16,7 +16,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: PageProps<"/category/[slug]">): Promise<Metadata> {
+}: PageProps<"/products/[slug]">): Promise<Metadata> {
   const { slug } = await params;
   const category = getCategoryBySlug(slug);
 
@@ -27,7 +27,7 @@ export async function generateMetadata({
 
 export default async function CategoryPage({
   params,
-}: PageProps<"/category/[slug]">) {
+}: PageProps<"/products/[slug]">) {
   const { slug } = await params;
   const category = getCategoryBySlug(slug);
 

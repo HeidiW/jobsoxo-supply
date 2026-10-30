@@ -2,6 +2,7 @@ import { parsePrice } from "./price";
 import type { Category, StoredProduct } from "./types";
 
 const BRAND = "JobsOxo Supply";
+const CURRENCY = "USD";
 const REQUIRED_TEXT_FIELDS = [
   "id",
   "title",
@@ -18,8 +19,9 @@ function isImageReference(value: string): boolean {
 
 function validatePrice(price: string): string | null {
   try {
-    parsePrice(price);
-    return null;
+    return parsePrice(price).currency === CURRENCY
+      ? null
+      : `price "${price}" must be in ${CURRENCY}`;
   } catch (error) {
     return (error as Error).message;
   }

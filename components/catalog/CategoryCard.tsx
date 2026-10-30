@@ -5,7 +5,7 @@ import { CatalogImage } from "./CatalogImage";
 export function CategoryCard({ category }: { category: Category }) {
   return (
     <Link
-      href={`/category/${category.slug}`}
+      href={`/products/${category.slug}`}
       className="group flex flex-col border border-line bg-white transition-colors hover:border-safety"
     >
       <CatalogImage

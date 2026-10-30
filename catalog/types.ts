@@ -1,3 +1,5 @@
+import type { ParsedPrice } from "./price";
+
 export type Availability = "in stock" | "out of stock";
 
 /** Storefront-only fields. Never included in external feeds. */
@@ -39,6 +41,23 @@ export interface Product extends ProductBase {
   link: string;
   image_link: string;
   additional_image_link?: string[];
+}
+
+/** The small, serializable view of a product that browser code works with. */
+export interface ProductSummary {
+  id: string;
+  title: string;
+  slug: string;
+  image: string;
+  inventory: number;
+  unitPrice: ParsedPrice;
+}
+
+/** One selectable member of a variant group, such as a trowel size. */
+export interface VariantOption {
+  id: string;
+  slug: string;
+  label: string;
 }
 
 export interface Category {

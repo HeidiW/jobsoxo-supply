@@ -41,8 +41,8 @@ const eslintConfig = defineConfig([
         {
           patterns: [
             {
-              group: ["@/catalog/*"],
-              message: 'Import from "@/catalog" instead.',
+              group: ["@/catalog/*", "!@/catalog/client"],
+              message: 'Import from "@/catalog" or "@/catalog/client" instead.',
             },
           ],
         },

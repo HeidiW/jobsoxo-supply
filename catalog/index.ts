@@ -1,13 +1,27 @@
 import categoriesJson from "./categories.json";
 import productsJson from "./products.json";
+import { getUnitPrice } from "./price";
 import { toAbsoluteUrl } from "./site-url";
-import type { Category, Product, StoredProduct } from "./types";
+import type {
+  Category,
+  Product,
+  ProductSummary,
+  StoredProduct,
+  VariantOption,
+} from "./types";
 import { assertValidCatalog } from "./validate";
 
 export { formatPrice, getUnitPrice, parsePrice } from "./price";
 export type { ParsedPrice } from "./price";
 export { getSiteUrl, toSitePath } from "./site-url";
-export type { Availability, Category, Product, ProductCustomFields } from "./types";
+export type {
+  Availability,
+  Category,
+  Product,
+  ProductCustomFields,
+  ProductSummary,
+  VariantOption,
+} from "./types";
 
 // TypeScript can't narrow JSON imports; assertValidCatalog checks the shape at load.
 const storedProducts = productsJson as unknown as StoredProduct[];
@@ -52,6 +66,35 @@ export function getProductVariants(product: Product): Product[] {
   return getProducts().filter(
     (candidate) => candidate.item_group_id === product.item_group_id,
   );
+}
+
+/**
+ * The options for a variant picker, labeled by the first spec that differs
+ * across the group (blade size for trowels, bag weight for plaster).
+ */
+export function getVariantOptions(product: Product): VariantOption[] {
+  const variants = getProductVariants(product);
+  const differingSpec = Object.keys(product.custom.specs).find(
+    (spec) =>
+      new Set(variants.map((variant) => variant.custom.specs[spec])).size > 1,
+  );
+
+  return variants.map((variant) => ({
+    id: variant.id,
+    slug: variant.custom.slug,
+    label: differingSpec ? variant.custom.specs[differingSpec] : variant.title,
+  }));
+}
+
+export function getProductSummaries(): ProductSummary[] {
+  return storedProducts.map((product) => ({
+    id: product.id,
+    title: product.title,
+    slug: product.custom.slug,
+    image: product.image_link,
+    inventory: product.inventory,
+    unitPrice: getUnitPrice(product),
+  }));
 }
 
 export function getCategories(): Category[] {
