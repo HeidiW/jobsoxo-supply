@@ -1,7 +1,9 @@
 import categoriesJson from "./categories.json";
+import { buildJsonFeed, type JsonFeed } from "./feeds/json";
+import { buildMetaCsv } from "./feeds/meta-csv";
 import productsJson from "./products.json";
 import { getUnitPrice } from "./price";
-import { toAbsoluteUrl } from "./site-url";
+import { getSiteUrl, toAbsoluteUrl } from "./site-url";
 import type {
   Category,
   Product,
@@ -103,4 +105,12 @@ export function getCategories(): Category[] {
 
 export function getCategoryBySlug(slug: string): Category | undefined {
   return getCategories().find((category) => category.slug === slug);
+}
+
+export function getJsonFeed(): JsonFeed {
+  return buildJsonFeed(getProducts(), getSiteUrl());
+}
+
+export function getMetaCsvFeed(): string {
+  return buildMetaCsv(getProducts());
 }
