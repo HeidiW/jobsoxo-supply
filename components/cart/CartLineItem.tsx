@@ -48,7 +48,7 @@ export function CartLineItem({ line }: { line: CartLine }) {
             type="button"
             onClick={() => removeItem(product.id)}
             aria-label={`Remove ${product.title}`}
-            className="text-steel underline hover:text-ink"
+            className="py-2 text-steel underline hover:text-ink"
           >
             Remove
           </button>

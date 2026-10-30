@@ -34,7 +34,7 @@ export default function Home() {
           </p>
           <Link
             href="#categories"
-            className="mt-8 inline-block bg-safety px-6 py-3 font-semibold text-ink transition-colors hover:bg-safety-dark"
+            className="mt-8 inline-block bg-safety px-5 py-3 font-semibold text-ink transition-colors hover:bg-safety-dark"
           >
             Shop by category
           </Link>
