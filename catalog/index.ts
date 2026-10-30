@@ -6,7 +6,7 @@ import { assertValidCatalog } from "./validate";
 
 export { formatPrice, getUnitPrice, parsePrice } from "./price";
 export type { ParsedPrice } from "./price";
-export { getSiteUrl } from "./site-url";
+export { getSiteUrl, toSitePath } from "./site-url";
 export type { Availability, Category, Product, ProductCustomFields } from "./types";
 
 // TypeScript can't narrow JSON imports; assertValidCatalog checks the shape at load.

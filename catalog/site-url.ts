@@ -15,3 +15,12 @@ export function getSiteUrl(): string {
 export function toAbsoluteUrl(path: string): string {
   return /^https?:\/\//.test(path) ? path : `${getSiteUrl()}${path}`;
 }
+
+/**
+ * Strips this site's origin so pages load their own assets relative to the
+ * current host. URLs on other hosts pass through.
+ */
+export function toSitePath(url: string): string {
+  const siteUrl = getSiteUrl();
+  return url.startsWith(`${siteUrl}/`) ? url.slice(siteUrl.length) : url;
+}

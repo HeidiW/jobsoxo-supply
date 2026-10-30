@@ -12,7 +12,7 @@ export function Header() {
         <Logo />
         <nav
           aria-label="Categories"
-          className="order-last -mx-4 w-screen border-t border-graphite px-4 sm:mx-0 sm:w-auto sm:flex-1 sm:border-0 sm:px-0 md:order-none"
+          className="order-last -mx-4 w-screen border-t border-graphite px-4 sm:mx-0 sm:w-auto sm:flex-1 sm:order-none sm:border-0 sm:px-0"
         >
           <ul className="flex justify-between gap-1 sm:justify-start sm:gap-6">
             {categories.map((category) => (
