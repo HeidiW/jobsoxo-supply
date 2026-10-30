@@ -112,7 +112,7 @@ function ConfirmationContent() {
   const redirectStatus = useSearchParams().get("redirect_status");
   const [order] = useState(readOrder);
 
-  const paymentFailed = redirectStatus !== null && redirectStatus !== "succeeded";
+  const paymentFailed = redirectStatus === "failed";
 
   useEffect(() => {
     if (paymentFailed) {
@@ -133,7 +133,7 @@ function ConfirmationContent() {
     return (
       <Notice
         title="Payment not completed"
-        message="Your card wasn't charged, and your cart is still saved."
+        message="You weren't charged, and your cart is still saved."
         href="/checkout/payment"
         linkLabel="Try again"
       />

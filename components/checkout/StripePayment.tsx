@@ -56,7 +56,13 @@ function StripePaymentForm({
       redirect: "if_required",
     });
 
-    if (error || paymentIntent?.status !== "succeeded") {
+    // Bank-style methods stay "processing" for a while. That isn't a failure,
+    // and reporting one could lead the shopper to pay twice.
+    const isAccepted =
+      paymentIntent?.status === "succeeded" ||
+      paymentIntent?.status === "processing";
+
+    if (error || !isAccepted) {
       discardOrder();
       setErrorMessage(error?.message ?? GENERIC_ERROR);
       setIsPaying(false);
