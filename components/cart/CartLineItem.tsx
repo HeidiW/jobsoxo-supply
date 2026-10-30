@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { formatPrice } from "@/catalog/client";
-import { useCart, type CartLine } from "./CartProvider";
+import type { CartLine } from "@/lib/cart";
+import { useCart } from "./CartProvider";
 import { QuantitySelector } from "./QuantitySelector";
 
 export function CartLineItem({ line }: { line: CartLine }) {

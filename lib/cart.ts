@@ -1,5 +1,12 @@
+import type { ProductSummary } from "@/catalog/client";
+
 export interface StoredCartLine {
   id: string;
+  quantity: number;
+}
+
+export interface CartLine {
+  product: ProductSummary;
   quantity: number;
 }
 

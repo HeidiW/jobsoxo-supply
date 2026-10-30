@@ -13,12 +13,8 @@ import {
   getServerCartSnapshot,
   subscribeToCart,
   writeCart,
+  type CartLine,
 } from "@/lib/cart";
-
-export interface CartLine {
-  product: ProductSummary;
-  quantity: number;
-}
 
 interface CartContextValue {
   /** False until the browser's saved cart has loaded. */
